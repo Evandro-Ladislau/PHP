@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Evandro</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Preencha o forulário</h1>
+            <div class="form">
+            <form action="proc.php" method="POST">
+                <label>
+                    Nome: 
+                    <input type="text" name="nome_cliente" placeholder="Digite o seu nome" required /><br/><br/>
+                </label>
+                <label>
+                    Email: 
+                    <input type="email" name="email_cliente" placeholder="Digite o seu email" required /><br/><br/>
+                </label>
+                <label>
+                    Senha: 
+                    <input type="password" name="senha" placeholder="Digite sua senha" required /><br/><br/>
+                </label>
+                <label>
+                    Confirmar: 
+                    <input type="password" name="senha_cliente" size="16px" placeholder="Digite novamente a sua senha" required /><br/><br/>
+                </label>
+
+                <input type="submit" name="Enviar"/>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
